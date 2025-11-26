@@ -29,7 +29,6 @@ export default function Cadastro() {
     const eobj = validate();
     setErrors(eobj);
     if (Object.keys(eobj).length > 0) {
-      // foca no primeiro campo inválido
       const first = Object.keys(eobj)[0];
       refs[first].current?.focus();
       return;

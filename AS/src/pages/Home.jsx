@@ -53,7 +53,7 @@ export default function Home() {
 		<div>
 			<h1 className="text-2xl font-semibold mb-4">Produtos</h1>
 
-			{/* Barra de pesquisa / filtros */}
+			{}
 			<div className="bg-white p-4 rounded shadow mb-4">
 				<div className="flex flex-col md:flex-row gap-2 md:items-end">
 					<div className="flex-1">

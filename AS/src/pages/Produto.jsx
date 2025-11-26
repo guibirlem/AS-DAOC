@@ -51,7 +51,6 @@ export default function Produto() {
             <div className="mt-4">
               <button
                 onClick={handleAdd}
-                // desabilita apenas se não houver estoque restante no servidor
                 disabled={produto.estoque === 0}
                 className={`px-4 py-2 rounded text-white ${produto.estoque === 0 ? 'bg-gray-400' : 'bg-green-600'}`}
               >
